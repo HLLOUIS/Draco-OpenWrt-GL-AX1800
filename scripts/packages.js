@@ -85,7 +85,7 @@ module.exports = [
 //     name: 'luci-app-syncdial',
 //     desc: '多拨虚拟网卡（需要光猫支持多拨）',
 //   },
-//   {
+   {
      name: 'luci-app-passwall',
      desc: 'passwall代理软件',
    },
