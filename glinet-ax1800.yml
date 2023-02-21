@@ -11,22 +11,22 @@ feeds:
     path: ../../feeds/wifi-ax
   - name: gl_feeds_common
     uri: https://github.com/gl-inet/gl-feeds.git
-    revision: f86ec7f77b7a36c96a9b5a9b7fea30ccc9ac5fe6
+    revision: ac1ff5fb455c6d304aa435abb1c3eccf4878e28b
   - name: luci
     uri: https://github.com/openwrt/luci.git
     revision: 1c3b32dc1bec15e3076a447762b1c4f94eb75fb7
   - name: kenzok8_packages
     uri: https://github.com/kenzok8/openwrt-packages.git
     branch: master
-    revision: 2d4c1254042f983e4cf95333e93716dd5c47c1bd
+    revision: ec2fcbf0160c458602db40748b05029da61e1e0b
   - name: immortalwrt_luci
     uri: https://github.com/immortalwrt/luci.git
     branch: openwrt-21.02
-    revision: b02cc6d543b2e06544c99c4155f43ccecbd1bc3d
+    revision: c066ddcc6d1eb8849b1b3a131609a6c149b0a054
   - name: small_package
     uri: https://github.com/kenzok8/small-package.git
     branch: main
-    revision: 56d770c40e58de35f583bff5fd34ee13d89caa9c
+    revision: 4fa74f16f31c18cc4d058bdde09c19d0228aabbc
 include: []
 packages:
   - wireless-regdb
